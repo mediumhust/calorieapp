@@ -71,6 +71,11 @@ Add this to crontab:
 0 4 * * 1 /usr/bin/certbot --renew && /usr/sbin/service apache2 reload
 ```
 
+check free memory
+```
+free -m
+```
+
 Crate swapfile (bonus)
 
 ```sh
