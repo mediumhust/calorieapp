@@ -46,6 +46,7 @@ Install Apache configuration
 ```sh
 $ sudo cp config/calorieapp_apache.conf /etc/apache2/sites-available/
 $ sudo a2enmod proxy proxy_http
+$ # sudo a2dissite 000-default.conf
 $ sudo a2ensite calorieapp_apache.conf
 $ sudo service apache2 reload
 ```
